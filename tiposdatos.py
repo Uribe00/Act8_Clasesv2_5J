@@ -24,8 +24,8 @@ class Datos:
         "Enchiladas": 5
         }
         print(comida)
-        for com in comida:
-            print(com, comida[com])
+        for x, y in comida.items():
+            print(x,y)
     def mi_set(self):
         colores={"rojo","azul","verde"}
         print(colores)
